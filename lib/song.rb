@@ -10,12 +10,12 @@ class Song
   attr_accessor :name
   attr_reader :artist
 
-  # @@songs = []
-  #
-  # def initialize
-  #   super
-  #   @song = []
-  # end
+  @@songs = []
+
+  def initialize
+    super
+    @song = []
+  end
 
   # def self.find_by_name(name)
   #   @@songs.detect{|a| a.name == name}
